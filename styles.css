@@ -1,0 +1,53 @@
+html {
+    height: 100%;
+}
+body{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+  
+    font-family: 'Times New Roman', Times, serif;
+   justify-content: space-around;
+   overflow: hidden;
+}
+
+
+*{
+    border: 1px solid red;
+}
+.Container{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+}
+
+
+.Container div{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+
+}
+
+
+.SubContainer1 label,input,button{
+margin:1px;
+}
+.SubContainer1 button ,.SubContainer2 button {
+    font-size: 20px;
+    padding: 3px 20px;
+    border-radius: 4px;
+    border: 1px solid black;
+}
+
+.SubContainer1,.SubContainer2{
+   justify-content: space-around;
+   align-items: center;
+}
+
+
+
+
+
